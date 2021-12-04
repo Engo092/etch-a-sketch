@@ -1,0 +1,43 @@
+body {
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+.main-functions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 600px;
+    overflow: hidden;
+}
+
+.square {
+    flex: 0 0 100%;
+    background-color: white;
+    margin: 0;
+}
+
+button {
+    background-color: cornsilk;
+    border-style: solid;
+    border-color: rgb(133, 125, 125);
+    font-size: 24px;
+    padding: 5px 15px;
+    width: 300px;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+}
