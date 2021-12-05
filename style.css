@@ -24,13 +24,21 @@ body {
     margin: 0;
 }
 
-button {
+button, .colorDiv {
     background-color: cornsilk;
     border-style: solid;
     border-color: rgb(133, 125, 125);
     font-size: 24px;
     padding: 5px 15px;
     width: 300px;
+}
+
+.colorDiv {
+    width: 265px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
 }
 
 .buttons {
@@ -40,4 +48,10 @@ button {
     width: 20%;
     justify-content: center;
     align-items: center;
+}
+
+.color {
+    border-style: none;
+    height: 40px;
+    width: 40px;
 }
